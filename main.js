@@ -12,7 +12,7 @@ Menu.setApplicationMenu(null);
 mainWindow.webContents.openDevTools();
 
   const startUrl = url.format({
-    pathname: path.join(__dirname, './app/build/index.html'),
+    pathname: path.join(__dirname, './react-app/build/index.html'),
     protocol: 'file',
   })
 
